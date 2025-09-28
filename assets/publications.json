@@ -1,0 +1,52 @@
+[
+  {
+    "title": "FuturePose - Mixed Reality Martial Arts Training Using Real-Time 3D Human Pose Forecasting With a RGB Camera",
+    "authors": [
+      "Erwin Wu",
+      "Hideki Koike"
+    ],
+    "venue": "WACV",
+    "year": 2019,
+    "pdf": "https://openaccess.thecvf.com/content_WACV_2019/html/Wu_FuturePose_-_Mixed_Reality_Martial_Arts_Training_Using_Real-Time_3D_Human_WACV_2019_paper.html",
+    "doi": "https://doi.org/10.1109/WACV.2019.00152",
+    "code": "",
+    "video": "",
+    "award": "",
+    "bibtex": "@inproceedings{wu2019futurepose,\n  title={FuturePose - Mixed Reality Martial Arts Training Using Real-Time 3D Human Pose Forecasting With a RGB Camera},\n  author={Wu, Erwin and Koike, Hideki},\n  booktitle={WACV},\n  year={2019}\n}"
+  },
+  {
+    "title": "VR Alpine Ski Training Augmentation using Visual Cues of Leading Skier",
+    "authors": [
+      "Erwin Wu",
+      "Takayuki Nozawa",
+      "Florian Perteneder",
+      "Hideki Koike"
+    ],
+    "venue": "CVPR Workshops",
+    "year": 2020,
+    "pdf": "https://openaccess.thecvf.com/content_CVPRW_2020/html/w54/Wu_VR_Alpine_Ski_Training_Augmentation_using_Visual_Cues_of_Leading_CVPRW_2020_paper.html",
+    "doi": "",
+    "code": "",
+    "video": "",
+    "award": "",
+    "bibtex": "@inproceedings{wu2020vralpine,\n  title={VR Alpine Ski Training Augmentation using Visual Cues of Leading Skier},\n  author={Wu, Erwin and Nozawa, Takayuki and Perteneder, Florian and Koike, Hideki},\n  booktitle={CVPR Workshops},\n  year={2020}\n}"
+  },
+  {
+    "title": "Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera",
+    "authors": [
+      "Hui-Shyong Yeo",
+      "Erwin Wu",
+      "Juyoung Lee",
+      "Aaron Quigley",
+      "Hideki Koike"
+    ],
+    "venue": "UIST",
+    "year": 2019,
+    "pdf": "",
+    "doi": "",
+    "code": "",
+    "video": "",
+    "award": "",
+    "bibtex": "@inproceedings{yeo2019opisthenar,\n  title={Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera},\n  author={Yeo, Hui-Shyong and Wu, Erwin and Lee, Juyoung and Quigley, Aaron and Koike, Hideki},\n  booktitle={UIST},\n  year={2019}\n}"
+  }
+]

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Erwin Wu — Research</title>
+  <meta name="description" content="Erwin Wu — Researcher in Computer Vision, HCI, Multimodal Sensing." />
+  <link rel="preload" href="assets/styles.css" as="style">
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="favicon.ico" />
+  <meta property="og:title" content="Erwin Wu — Research" />
+  <meta property="og:description" content="Computer Vision, HCI, Multimodal Sensing." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- JSON-LD for better scholar/SEO parsing -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Erwin Wu",
+    "jobTitle": "Research Associate Professor",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Institute of Science Tokyo"
+    },
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Tokyo Institute of Technology"},
+      {"@type": "CollegeOrUniversity", "name": "Shanghai Jiao Tong University"}
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=0c_Zm0QAAAAJ",
+      "https://dblp.org/pid/230/7572",
+      "https://openreview.net/profile?id=~Erwin_Wu1",
+      "https://github.com/erwinwu"
+    ],
+    "url": "https://erwinwu.github.io/"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#top">Erwin Wu</a>
+      <nav class="nav" aria-label="Primary">
+        <button id="themeToggle" class="ghost" title="Toggle theme" aria-label="Toggle theme">☾</button>
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <!-- Hero -->
+    <section id="about" class="hero card">
+      <img src="assets/avatar.jpg" alt="Portrait of Erwin Wu" class="avatar" />
+      <div>
+        <h1>Erwin Wu</h1>
+        <p class="subtitle">Research Associate Professor, <a href="https://isct.ac.jp" target="_blank" rel="noreferrer">Institute of Science Tokyo</a></p>
+        <p>My research sits at the intersection of <strong>Computer Vision</strong>, <strong>HCI</strong>, and <strong>Multimodal Sensing</strong>, with a recent focus on 3D human pose, sports/skill acquisition, and robust inference from incomplete observations.</p>
+        <p>
+          <a class="pill" href="#publications">Publications</a>
+          <a class="pill ghost" href="CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+          <a class="pill ghost" href="https://scholar.google.com/citations?user=0c_Zm0QAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="card">
+      <h2>News</h2>
+      <ul class="news">
+        <li><time datetime="2025-09-01">Sep 2025</time> Associate Professor @ Science Tokyo (research focus: multimodal → robust inference).</li>
+        <li><time datetime="2025-07-01">Jul 2025</time> Serving as Program/Poster Chair for MVA 2025.</li>
+        <li><time datetime="2025-06-01">Jun 2025</time> New dataset/tools for skill acquisition (preprint soon).</li>
+      </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="card">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <div class="controls">
+          <input id="pubSearch" type="search" placeholder="Search title/venue/authors…" aria-label="Search publications" />
+          <select id="yearFilter" aria-label="Filter by year">
+            <option value="">All years</option>
+          </select>
+          <select id="venueFilter" aria-label="Filter by venue">
+            <option value="">All venues</option>
+          </select>
+          <button id="bibtexToggle" class="ghost">Show BibTeX</button>
+        </div>
+      </div>
+      <ol id="pubList" class="pubs"></ol>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div id="projectGrid" class="grid"></div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="card">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Advanced HCI (2025) — Institute of Science Tokyo</li>
+        <li>Computer Vision (Guest lectures, 2024–2025)</li>
+      </ul>
+    </section>
+
+    <!-- Service -->
+    <section id="service" class="card">
+      <h2>Service</h2>
+      <ul>
+        <li>Program/Poster Chair: MVA 2025</li>
+        <li>Reviewer: CHI, UIST, CVPR, ECCV, SIGGRAPH Asia, NeurIPS, WACV, MIRU…</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> erwin [at] isct.ac.jp</p>
+      <p class="social">
+        <a href="https://github.com/erwinwu" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=0c_Zm0QAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+        <a href="https://dblp.org/pid/230/7572" target="_blank" rel="noreferrer">DBLP</a>
+        <a href="https://openreview.net/profile?id=~Erwin_Wu1" target="_blank" rel="noreferrer">OpenReview</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> Erwin Wu · Built with vanilla HTML/CSS/JS · <a href="https://github.com" target="_blank" rel="noreferrer">GitHub Pages</a></small>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
