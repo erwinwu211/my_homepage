@@ -1,148 +1,232 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Erwin Wu — Research</title>
-  <meta name="description" content="Erwin Wu — Researcher in Computer Vision, HCI, Multimodal Sensing." />
-  <link rel="preload" href="assets/styles.css" as="style">
-  <link rel="stylesheet" href="assets/styles.css" />
-  <link rel="icon" href="favicon.ico" />
-  <meta property="og:title" content="Erwin Wu — Research" />
-  <meta property="og:description" content="Computer Vision, HCI, Multimodal Sensing." />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/avatar.jpg" />
-  <meta name="twitter:card" content="summary" />
-
-  <!-- JSON-LD for better scholar/SEO parsing -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Erwin Wu",
-    "jobTitle": "Research Associate Professor",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "Institute of Science Tokyo"
-    },
-    "alumniOf": [
-      {"@type": "CollegeOrUniversity", "name": "Tokyo Institute of Technology"},
-      {"@type": "CollegeOrUniversity", "name": "Shanghai Jiao Tong University"}
-    ],
-    "sameAs": [
-      "https://scholar.google.com/citations?user=0c_Zm0QAAAAJ",
-      "https://dblp.org/pid/230/7572",
-      "https://openreview.net/profile?id=~Erwin_Wu1",
-      "https://github.com/erwinwu"
-    ],
-    "url": "https://erwinwu.github.io/"
-  }
-  </script>
+  <title>Erwin Wu — Digital Human & Multimodal AI</title>
+  <meta name="description" content="Erwin Wu — Associate Professor focused on digital humans, multimodal 3D sensing, and human–AI interaction." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0d10;  --card: #12161b;  --text: #e7edf3;  --muted: #9db0c1;  --brand: #6ec1ff;  --accent: #7af0b4;  --line: #1d232c;
+      --shadow: 0 8px 30px rgba(0,0,0,.35);
+    }
+    .light {
+      --bg: #f7fafc;  --card: #ffffff;  --text: #0e1116;  --muted: #475569;  --brand: #0ea5e9;  --accent: #059669;  --line: #e5e9ef;
+      --shadow: 0 12px 24px rgba(0,0,0,.08);
+    }
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;letter-spacing:.2px}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1060px;margin:0 auto;padding:28px}
+    header{position:sticky;top:0;backdrop-filter:blur(8px);background:color-mix(in srgb, var(--bg) 88%, transparent);border-bottom:1px solid var(--line);z-index:40}
+    .nav{display:flex;align-items:center;gap:18px;justify-content:space-between}
+    .nav a{color:var(--muted);font-weight:600}
+    .brand{display:flex;gap:14px;align-items:center}
+    .avatar{inline-size:54px;block-size:54px;border-radius:16px;background:linear-gradient(135deg,var(--brand),var(--accent));display:grid;place-items:center;color:#001828;font-weight:800;box-shadow:var(--shadow)}
+    .tag{padding:.25rem .6rem;border:1px solid var(--line);border-radius:999px;font-size:.76rem;color:var(--muted);}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;padding:40px 0 24px}
+    .hero h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:.25rem 0 .5rem 0}
+    .hero p{color:var(--muted);margin:0}
+    .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+    .card.pad{padding:18px}
+    .grid{display:grid;gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr}.grid.cols-2{grid-template-columns:1fr}}
+    h2{font-size:1.45rem;margin:22px 0 10px 0}
+    .section{margin:24px 0 10px}
+    .kpi{display:flex;gap:18px}
+    .kpi .item{flex:1;padding:14px;border:1px dashed var(--line);border-radius:12px;text-align:center}
+    .mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.9rem}
+    .pub{display:grid;grid-template-columns:1fr auto;gap:10px;padding:14px;border-bottom:1px solid var(--line)}
+    .pub:last-child{border-bottom:none}
+    .pub .title{font-weight:650}
+    .pub .meta{color:var(--muted);font-size:.9rem}
+    .btn{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);padding:.55rem .8rem;border-radius:12px;font-weight:600}
+    .btn:hover{border-color:color-mix(in srgb,var(--brand) 40%, var(--line))}
+    .toolbar{display:flex;gap:10px;flex-wrap:wrap}
+    footer{margin:44px 0 18px;color:var(--muted);text-align:center}
+    .chip{padding:.2rem .55rem;border-radius:999px;background:color-mix(in srgb,var(--brand) 15%, transparent);color:var(--text);border:1px solid var(--line);font-size:.78rem}
+    .news li{padding:10px 0;border-bottom:1px solid var(--line)}
+    .news time{color:var(--muted);font-variant-numeric:tabular-nums}
+    .sr{position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap">
-      <a class="brand" href="#top">Erwin Wu</a>
-      <nav class="nav" aria-label="Primary">
-        <button id="themeToggle" class="ghost" title="Toggle theme" aria-label="Toggle theme">☾</button>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">EW</div>
+        <div>
+          <div class="mono" style="opacity:.8">Erwin Wu</div>
+          <div class="mono" style="font-size:.85rem;color:var(--muted)">Digital Humans · Multimodal 3D · HCI</div>
+        </div>
+      </div>
+      <nav class="toolbar">
         <a href="#about">About</a>
-        <a href="#news">News</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
-        <a href="#teaching">Teaching</a>
         <a href="#service">Service</a>
         <a href="#contact">Contact</a>
+        <button id="toggle" class="btn" type="button" aria-pressed="false" title="Toggle theme">🌓 Theme</button>
       </nav>
     </div>
   </header>
 
-  <main id="top" class="wrap">
-    <!-- Hero -->
-    <section id="about" class="hero card">
-      <img src="assets/avatar.jpg" alt="Portrait of Erwin Wu" class="avatar" />
+  <main class="container">
+    <section class="hero">
       <div>
-        <h1>Erwin Wu</h1>
-        <p class="subtitle">Research Associate Professor, <a href="https://isct.ac.jp" target="_blank" rel="noreferrer">Institute of Science Tokyo</a></p>
-        <p>My research sits at the intersection of <strong>Computer Vision</strong>, <strong>HCI</strong>, and <strong>Multimodal Sensing</strong>, with a recent focus on 3D human pose, sports/skill acquisition, and robust inference from incomplete observations.</p>
-        <p>
-          <a class="pill" href="#publications">Publications</a>
-          <a class="pill ghost" href="CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
-          <a class="pill ghost" href="https://scholar.google.com/citations?user=0c_Zm0QAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
-        </p>
-      </div>
-    </section>
-
-    <!-- News -->
-    <section id="news" class="card">
-      <h2>News</h2>
-      <ul class="news">
-        <li><time datetime="2025-09-01">Sep 2025</time> Associate Professor @ Science Tokyo (research focus: multimodal → robust inference).</li>
-        <li><time datetime="2025-07-01">Jul 2025</time> Serving as Program/Poster Chair for MVA 2025.</li>
-        <li><time datetime="2025-06-01">Jun 2025</time> New dataset/tools for skill acquisition (preprint soon).</li>
-      </ul>
-    </section>
-
-    <!-- Publications -->
-    <section id="publications" class="card">
-      <div class="section-head">
-        <h2>Publications</h2>
-        <div class="controls">
-          <input id="pubSearch" type="search" placeholder="Search title/venue/authors…" aria-label="Search publications" />
-          <select id="yearFilter" aria-label="Filter by year">
-            <option value="">All years</option>
-          </select>
-          <select id="venueFilter" aria-label="Filter by venue">
-            <option value="">All venues</option>
-          </select>
-          <button id="bibtexToggle" class="ghost">Show BibTeX</button>
+        <span class="tag">Associate Professor · Institute of Science Tokyo</span>
+        <h1>Building real‑time <span style="color:var(--brand)">digital humans</span> from <span style="color:var(--accent)">multimodal 3D sensing</span>.</h1>
+        <p>I study skill acquisition and human–AI interaction by fusing 3D vision, wearable sensing (IMU/EMG/pressure), and generative models. My group collaborates widely with academia and industry on markerless motion capture, avatar control, and feedback systems.</p>
+        <div class="pills" style="margin-top:16px">
+          <span class="chip">3D Human Sensing</span>
+          <span class="chip">Generative Models</span>
+          <span class="chip">Sports & Skill Learning</span>
+          <span class="chip">XR Interfaces</span>
+        </div>
+        <div class="toolbar" style="margin-top:16px">
+          <a class="btn" href="https://scholar.google.com/citations?user=bS_o0bcAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a class="btn" href="https://github.com/erwinwu" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="#publications">Selected Papers</a>
+          <a class="btn" href="assets/ErwinWu-CV.pdf" download>Download CV</a>
         </div>
       </div>
-      <ol id="pubList" class="pubs"></ol>
+      <div class="card pad">
+        <h2 id="about">About</h2>
+        <p>Previously at Tokyo Tech’s Koike Lab; collaborating with groups including NUS, Waseda, Carnegie Mellon, Huawei Japan CG‑Lab, Sony CSL, and industry partners. We are building datasets, pipelines, and real‑time systems for human motion understanding and digital‑human interaction.</p>
+        <div class="kpi" style="margin-top:10px">
+          <div class="item"><div class="mono" style="font-size:1.3rem">1000+ </div><div class="mono" style="opacity:.7">citations</div></div>
+          <div class="item"><div class="mono" style="font-size:1.3rem">20+ </div><div class="mono" style="opacity:.7">publications</div></div>
+          <div class="item"><div class="mono" style="font-size:1.3rem">10+ </div><div class="mono" style="opacity:.7">awards & demos</div></div>
+        </div>
+      </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="card">
+    <section class="section">
+      <div class="grid cols-2">
+        <div class="card pad">
+          <h2>News</h2>
+          <ul class="news" id="news">
+            <li><time>2025‑10</time> — Organizing and serving in program committees for venues in HCI/CV; preparing new datasets and demos for digital‑human research.</li>
+            <li><time>2025‑07</time> — New institute collaboration in Tokyo focusing on real‑time interactive digital humans.</li>
+            <li><time>2025‑04</time> — Upgraded capture rigs (multi‑GoPro, IMU/EMG/pressure) and servers for large‑scale training.</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h2>Research Keywords</h2>
+          <p class="mono">Markerless Mocap · SMPL/Avatar Control · Pose Forecasting · Multimodal Fusion (IMU/EMG/Pressure) · Sports HCI · Skill Feedback · Diffusion/Flow for Motion · Real‑Time Systems · VR/AR Interfaces</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section card pad">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <h2 style="margin:0">Selected Publications</h2>
+        <div class="toolbar">
+          <button class="btn" onclick="filterPubs('all')">All</button>
+          <button class="btn" onclick="filterPubs('HCI')">HCI</button>
+          <button class="btn" onclick="filterPubs('CV')">CV</button>
+        </div>
+      </div>
+      <div id="pubList"></div>
+      <div style="margin-top:12px"><a class="btn" href="https://www.erwin-wu.com/publications" target="_blank" rel="noreferrer">Full list</a></div>
+    </section>
+
+    <section id="projects" class="section card pad">
       <h2>Projects</h2>
-      <div id="projectGrid" class="grid"></div>
+      <div class="grid cols-3" id="projGrid"></div>
     </section>
 
-    <!-- Teaching -->
-    <section id="teaching" class="card">
-      <h2>Teaching</h2>
-      <ul>
-        <li>Advanced HCI (2025) — Institute of Science Tokyo</li>
-        <li>Computer Vision (Guest lectures, 2024–2025)</li>
-      </ul>
+    <section id="service" class="section">
+      <div class="grid cols-2">
+        <div class="card pad">
+          <h2>Teaching & Mentoring</h2>
+          <ul>
+            <li>Graduate seminars on Multimodal 3D Sensing and Digital Humans.</li>
+            <li>Project‑based courses with industry partners; focus on reproducible pipelines.</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h2>Service</h2>
+          <ul>
+            <li>Program committees & reviewer: UIST, CHI, CVPR/ICCV Workshops, VR/ISMAR, etc.</li>
+            <li>Organizer: Digital‑Human & Sports‑HCI focused workshops and datasets.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <!-- Service -->
-    <section id="service" class="card">
-      <h2>Service</h2>
-      <ul>
-        <li>Program/Poster Chair: MVA 2025</li>
-        <li>Reviewer: CHI, UIST, CVPR, ECCV, SIGGRAPH Asia, NeurIPS, WACV, MIRU…</li>
-      </ul>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="card">
+    <section id="contact" class="section card pad">
       <h2>Contact</h2>
-      <p><strong>Email:</strong> erwin [at] isct.ac.jp</p>
-      <p class="social">
-        <a href="https://github.com/erwinwu" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://scholar.google.com/citations?user=0c_Zm0QAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
-        <a href="https://dblp.org/pid/230/7572" target="_blank" rel="noreferrer">DBLP</a>
-        <a href="https://openreview.net/profile?id=~Erwin_Wu1" target="_blank" rel="noreferrer">OpenReview</a>
-      </p>
+      <p>Email: <a href="mailto:wu.e.aa@m.titech.ac.jp">wu.e.aa@m.titech.ac.jp</a> · X/Twitter: <a href="https://x.com/erwinwu" target="_blank" rel="noreferrer">@erwinwu</a> · <a href="https://www.linkedin.com/in/erwin-wu" target="_blank" rel="noreferrer">LinkedIn</a></p>
+      <p>We welcome motivated students and collaborators. If you’re excited about digital humans, send a short note and your CV.</p>
     </section>
+
+    <footer>
+      <div>© <span id="year"></span> Erwin Wu • Built with a single self‑contained HTML file for GitHub Pages.</div>
+    </footer>
   </main>
 
-  <footer class="site-footer">
-    <div class="wrap">
-      <small>© <span id="year"></span> Erwin Wu · Built with vanilla HTML/CSS/JS · <a href="https://github.com" target="_blank" rel="noreferrer">GitHub Pages</a></small>
-    </div>
-  </footer>
+  <script>
+    // --- Theme toggle (persist across visits) ---
+    const root = document.documentElement; const key = 'theme';
+    function applyTheme(t){ if(t==='light'){ root.classList.add('light'); } else { root.classList.remove('light'); } }
+    applyTheme(localStorage.getItem(key) || (matchMedia('(prefers-color-scheme: light)').matches? 'light':'dark'));
+    document.getElementById('toggle').addEventListener('click',()=>{ const isLight=root.classList.toggle('light'); localStorage.setItem(key, isLight? 'light':'dark');});
 
-  <script src="assets/script.js" defer></script>
+    // --- Publications data (curate/edit as needed) ---
+    const pubs = [
+      {title:"Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-worn Camera via Dorsum Deformation Network", authors:"Erwin Wu, Ye Yuan, Hui‑Shyong Yeo, Aaron Quigley, Hideki Koike, Kris M. Kitani", venue:"UIST '20", tags:["HCI","CV"], links:{paper:"https://dl.acm.org/doi/10.1145/3379337.3415851"}},
+      {title:"Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera", authors:"Hui‑Shyong Yeo, Erwin Wu, Juyoung Lee, Aaron Quigley, Hideki Koike", venue:"UIST '19", tags:["HCI"], links:{paper:"https://dl.acm.org/doi/10.1145/3332165.3347933"}},
+      {title:"VR Alpine Ski Training Augmentation using Visual Cues of Leading Skier", authors:"Erwin Wu, Takayuki Nozawa, Florian Perteneder, Hideki Koike", venue:"CVPRW 2020", tags:["CV","HCI"], links:{paper:"https://openaccess.thecvf.com/content_CVPRW_2020/html/w31/Wu_VR_Alpine_Ski_Training_Augmentation_using_Visual_Cues_of_Leading_CVPRW_2020_paper.html"}},
+      {title:"FuturePong: Real‑time Table Tennis Trajectory Forecasting using Pose Prediction Network", authors:"Erwin Wu, Hideki Koike", venue:"CHI EA '20", tags:["HCI","CV"], links:{paper:"https://dl.acm.org/doi/10.1145/3334480.3382790"}},
+      {title:"How to VizSki: Visualizing Captured Skier Motion in a VR Ski Training Simulator", authors:"Erwin Wu, Takayuki Nozawa, Florian Perteneder, Hideki Koike", venue:"VRCAI '19 (Best Paper)", tags:["HCI"], links:{paper:"https://dl.acm.org/doi/10.1145/3359997.3365730"}},
+      {title:"Real‑time Table Tennis Forecasting System based on Long Short‑term Pose Prediction Network", authors:"Erwin Wu, Florian Perteneder, Hideki Koike", venue:"SIGGRAPH Asia '19 Posters", tags:["CV","HCI"], links:{paper:"https://dl.acm.org/doi/10.1145/3355056.3364568"}},
+      {title:"FuturePose: Mixed Reality Martial Arts Training Using Real‑Time 3D Human Pose Forecasting With an RGB Camera", authors:"Erwin Wu, Hideki Koike", venue:"WACV 2019", tags:["CV","HCI"], links:{paper:"https://ieeexplore.ieee.org/document/8658745"}},
+      {title:"Real‑time Human Motion Forecasting using an RGB Camera", authors:"Erwin Wu, Hideki Koike", venue:"VRST '18 (Honorable Mention)", tags:["CV"], links:{paper:"https://dl.acm.org/doi/10.1145/3281505.3281609"}}
+    ];
+
+    function pubNode(p){
+      const el = document.createElement('div'); el.className='pub';
+      const left = document.createElement('div');
+      left.innerHTML = `<div class="title">${p.title}</div>
+                        <div class="meta">${p.authors}</div>
+                        <div class="meta">${p.venue} · <span class="mono">${p.tags.join(', ')}</span></div>`;
+      const right = document.createElement('div');
+      const a = document.createElement('a'); a.className='btn'; a.href=p.links.paper; a.target='_blank'; a.rel='noreferrer'; a.textContent='Paper'; right.appendChild(a);
+      el.appendChild(left); el.appendChild(right); return el;
+    }
+
+    let currentFilter = 'all';
+    function renderPubs(){
+      const list = document.getElementById('pubList'); list.innerHTML='';
+      pubs.filter(p=> currentFilter==='all' || p.tags.includes(currentFilter)).forEach(p=> list.appendChild(pubNode(p)));
+    }
+    function filterPubs(tag){ currentFilter = tag; renderPubs(); }
+    renderPubs();
+
+    // --- Projects (thumbnails optional) ---
+    const projects = [
+      {name:'Markerless Motion Forecasting for Table Tennis', desc:'Realtime trajectory & pose prediction for coaching and visualization.', link:'#'},
+      {name:'VR Ski Training (VizSki)', desc:'Augmented expert motion cues for indoor skill training.', link:'#'},
+      {name:'Back‑Hand‑Pose', desc:'Dorsum‑view wrist camera for hand pose estimation.', link:'#'},
+      {name:'SkiTech / Sports Datasets', desc:'Multimodal capture: IMU/EMG/pressure insoles + video.', link:'#'},
+      {name:'Digital‑Human Avatars', desc:'Generative motion & SMPL pipelines for real‑time avatars.', link:'#'},
+      {name:'Blind‑Ski HCI', desc:'Assistive guidance interfaces for visually impaired skiing.', link:'#'}
+    ];
+    const projGrid = document.getElementById('projGrid');
+    projects.forEach(p=>{
+      const card = document.createElement('a'); card.className='card pad'; card.style.display='block'; card.href=p.link; card.innerHTML=`<div class="mono" style="opacity:.7">Project</div><div style="font-weight:700">${p.name}</div><div style="color:var(--muted)">${p.desc}</div>`; projGrid.appendChild(card);
+    });
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
