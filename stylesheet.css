@@ -215,7 +215,7 @@ span.highlight {
 }
 
 .paper_details {
-  padding: 0px 0px 0px 0px;
+  padding: 15px 20px 15px 15px;
   width: 65%;
   vertical-align: top;
   line-height: 22px;
@@ -233,7 +233,7 @@ span.highlight {
   }
 
   .paper_details {
-    padding: 0px 0px 0px 0px;
+    padding: 15px 20px 15px 20px;
     width: 90%;
   }
 }
