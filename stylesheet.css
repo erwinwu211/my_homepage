@@ -176,13 +176,13 @@ span.highlight {
 }
 
 .paper_tb {
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
   width: 35%;
   vertical-align: top;
 }
 
 .paper_tb video {
-  border-radius: 0px;
+  border-radius: 2px;
 	border: 1px solid black;
   overflow: hidden;
   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.35);
@@ -190,7 +190,7 @@ span.highlight {
 
 .paper_tb img {
   width: 100%;
-  border-radius: 0px;
+  border-radius: 2px;
 	border: 1px solid black;
   overflow: hidden;
   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.35);
@@ -215,7 +215,7 @@ span.highlight {
 }
 
 .paper_details {
-  padding: 15px 20px 15px 15px;
+  padding: 0px 0px 0px 0px;
   width: 65%;
   vertical-align: top;
   line-height: 22px;
@@ -228,12 +228,12 @@ span.highlight {
   }
 
   .paper_tb {
-    padding: 15px 20px 0px 20px;
+    padding: 0px 0px 0px 0px;
     width: 90%;
   }
 
   .paper_details {
-    padding: 15px 20px 15px 20px;
+    padding: 0px 0px 0px 0px;
     width: 90%;
   }
 }
