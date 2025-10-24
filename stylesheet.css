@@ -140,3 +140,11 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Narrow spacing for the News section (table with class "news-table") */
+.news-table p {
+  margin: 4px 0; /* reduce vertical gap between news lines */
+  line-height: 1.15; /* tighter line height for denser text */
+}
+
+.news-table td { padding: 4px 0; } /* reduce any td padding inside the news table */
