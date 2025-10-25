@@ -137,8 +137,13 @@ span.highlight {
 .colored-box {
     color: black;
     padding: 20px;
-    display: inline-block;
     border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
