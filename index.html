@@ -76,11 +76,27 @@
             <td class="news_date">2024.12</td>
             <td class="news_content">One paper is accepted to CHI 2025, see you in Yokohama!</td>
           </tr>
-          <tr>
+          <tr class="news_hidden">
             <td class="news_date">2024.08</td>
             <td class="news_content">One paper is accepted to UIST 2024, see you in Pittsburgh!</td>
           </tr>
+          <tr class="news_hidden">
+            <td class="news_date">2024.01</td>
+            <td class="news_content">One paper is accepted to WACV 2024, see you in Arizona!</td>
+          </tr>
+          <tr class="news_hidden">
+            <td class="news_date">2023.08</td>
+            <td class="news_content">One paper is accepted to ISMAR 2023, see you in Sydney!</td>
+          </tr>
+          <tr class="news_hidden">
+            <td class="news_date">2023.02</td>
+            <td class="news_content">Two papers are accepted to CHI 2023, see you in Hamburg!</td>
+          </tr>
           </tbody></table>
+          
+          <div style="text-align: center; margin-top: 15px;">
+            <button class="show-all-btn" onclick="toggleNews()">Show all</button>
+          </div>
 
         <table class="section-header" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
@@ -284,5 +300,26 @@
         </td>
       </tr>
     </table>
+    
+    <script>
+      function toggleNews() {
+        const hiddenItems = document.querySelectorAll('.news_hidden');
+        const button = document.querySelector('.show-all-btn');
+        
+        if (hiddenItems[0].style.display === 'none' || hiddenItems[0].style.display === '') {
+          // Show all items
+          hiddenItems.forEach(item => {
+            item.style.display = '';
+          });
+          button.textContent = 'Show less';
+        } else {
+          // Hide items
+          hiddenItems.forEach(item => {
+            item.style.display = 'none';
+          });
+          button.textContent = 'Show all';
+        }
+      }
+    </script>
   </body>
 </html>

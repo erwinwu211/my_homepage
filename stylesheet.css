@@ -396,6 +396,29 @@ span.highlight {
   border-bottom: none;
 }
 
+/* Hidden news items */
+.news_hidden {
+  display: none;
+}
+
+/* Show all button */
+.show-all-btn {
+  background-color: #1772d0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.show-all-btn:hover {
+  background-color: #f09228;
+}
+
 /* Responsive design for news section */
 @media (max-width: 675px) {
   .news_date {
