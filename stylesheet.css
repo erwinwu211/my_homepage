@@ -84,6 +84,73 @@ a {
   font-size: 14px;
 }
 
+/* Top Navigation Banner */
+.top-nav {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+}
+
+.nav-brand {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1772d0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #1772d0;
+  background-color: #e3f2fd;
+  text-decoration: none;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    gap: 20px;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
