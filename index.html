@@ -315,25 +315,17 @@
     
     <script>
       function toggleNews() {
-        const hiddenItems = document.querySelectorAll('.news_hidden');
+        const newsTable = document.querySelector('.news_table');
         const link = document.querySelector('.show-more-link');
         
-        // Check if items are currently hidden (either by CSS class or inline style)
-        const isHidden = hiddenItems[0].style.display === 'none' || 
-                       window.getComputedStyle(hiddenItems[0]).display === 'none';
-        
-        if (isHidden) {
-          // Show all items
-          hiddenItems.forEach(item => {
-            item.style.display = '';
-          });
-          link.textContent = 'Show less';
-        } else {
+        if (newsTable.classList.contains('news_expanded')) {
           // Hide items
-          hiddenItems.forEach(item => {
-            item.style.display = 'none';
-          });
+          newsTable.classList.remove('news_expanded');
           link.textContent = 'Show All';
+        } else {
+          // Show all items
+          newsTable.classList.add('news_expanded');
+          link.textContent = 'Show less';
         }
       }
     </script>

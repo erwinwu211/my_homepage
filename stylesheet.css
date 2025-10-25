@@ -401,6 +401,11 @@ span.highlight {
   display: none;
 }
 
+/* Show news items when expanded */
+.news_expanded .news_hidden {
+  display: table-row;
+}
+
 /* Show more link */
 .show-more-link {
   color: #1772d0;
