@@ -86,8 +86,8 @@ a {
 
 /* Top Navigation Banner */
 .top-nav {
-  background-color: #000000;
-  border-bottom: 1px solid #333;
+  background-color: #000000 !important;
+  border-bottom: 1px solid #333 !important;
   padding: 0;
   position: sticky;
   top: 0;
@@ -108,7 +108,7 @@ a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .nav-links {
@@ -117,7 +117,7 @@ a {
 }
 
 .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
   text-decoration: none;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -128,8 +128,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #f09228;
-  background-color: #333333;
+  color: #f09228 !important;
+  background-color: #333333 !important;
   text-decoration: none;
 }
 
