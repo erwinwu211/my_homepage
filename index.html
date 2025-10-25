@@ -95,7 +95,7 @@
           </tbody></table>
           
           <div style="text-align: center; margin-top: 15px;">
-            <button class="show-all-btn" onclick="toggleNews()">Show all</button>
+            <a href="javascript:void(0)" class="show-more-link" onclick="toggleNews()">Show All</a>
           </div>
 
         <table class="section-header" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -304,20 +304,20 @@
     <script>
       function toggleNews() {
         const hiddenItems = document.querySelectorAll('.news_hidden');
-        const button = document.querySelector('.show-all-btn');
+        const link = document.querySelector('.show-more-link');
         
         if (hiddenItems[0].style.display === 'none' || hiddenItems[0].style.display === '') {
           // Show all items
           hiddenItems.forEach(item => {
             item.style.display = '';
           });
-          button.textContent = 'Show less';
+          link.textContent = 'Show less';
         } else {
           // Hide items
           hiddenItems.forEach(item => {
             item.style.display = 'none';
           });
-          button.textContent = 'Show all';
+          link.textContent = 'Show more';
         }
       }
     </script>

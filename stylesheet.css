@@ -401,22 +401,18 @@ span.highlight {
   display: none;
 }
 
-/* Show all button */
-.show-all-btn {
-  background-color: #1772d0;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
+/* Show more link */
+.show-more-link {
+  color: #1772d0;
+  text-decoration: none;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
-  margin-top: 10px;
-  transition: background-color 0.2s ease;
+  cursor: pointer;
 }
 
-.show-all-btn:hover {
-  background-color: #f09228;
+.show-more-link:hover {
+  color: #f09228;
+  text-decoration: none;
 }
 
 /* Responsive design for news section */
