@@ -354,7 +354,7 @@ span.highlight {
   padding: 4px 15px 4px 0px;
   width: 80px;
   vertical-align: top;
-  line-height: 1.6em;
+  line-height: 1.3em;
   color: darkblue;
   white-space: nowrap;
   font-weight: bold;
@@ -363,7 +363,7 @@ span.highlight {
 .news_content {
   padding: 4px 0px 4px 0px;
   vertical-align: top;
-  line-height: 1.6em;
+  line-height: 1.3em;
 }
 
 /* News section table styling */
