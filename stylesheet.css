@@ -86,13 +86,13 @@ a {
 
 /* Top Navigation Banner */
 .top-nav {
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e9ecef;
+  background-color: #000000;
+  border-bottom: 1px solid #333;
   padding: 0;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .nav-container {
@@ -108,7 +108,7 @@ a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #1772d0;
+  color: #ffffff;
 }
 
 .nav-links {
@@ -117,7 +117,7 @@ a {
 }
 
 .nav-link {
-  color: #333;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -128,8 +128,8 @@ a {
 }
 
 .nav-link:hover {
-  color: #1772d0;
-  background-color: #e3f2fd;
+  color: #f09228;
+  background-color: #333333;
   text-decoration: none;
 }
 
