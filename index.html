@@ -76,17 +76,29 @@
             <td class="news_date">2024.12</td>
             <td class="news_content">One paper is accepted to CHI 2025, see you in Yokohama!</td>
           </tr>
-          <tr class="news_hidden">
+          <tr>
             <td class="news_date">2024.08</td>
             <td class="news_content">One paper is accepted to UIST 2024, see you in Pittsburgh!</td>
           </tr>
-          <tr class="news_hidden">
+          <tr>
             <td class="news_date">2024.01</td>
             <td class="news_content">One paper is accepted to WACV 2024, see you in Arizona!</td>
           </tr>
-          <tr class="news_hidden">
+          <tr>
             <td class="news_date">2023.08</td>
             <td class="news_content">One paper is accepted to ISMAR 2023, see you in Sydney!</td>
+          </tr>
+          <tr>
+            <td class="news_date">2023.02</td>
+            <td class="news_content">Two papers are accepted to CHI 2023, see you in Hamburg!</td>
+          </tr>
+          <tr class="news_hidden">
+            <td class="news_date">2023.02</td>
+            <td class="news_content">Two papers are accepted to CHI 2023, see you in Hamburg!</td>
+          </tr>
+          <tr class="news_hidden">
+            <td class="news_date">2023.02</td>
+            <td class="news_content">Two papers are accepted to CHI 2023, see you in Hamburg!</td>
           </tr>
           <tr class="news_hidden">
             <td class="news_date">2023.02</td>
@@ -306,7 +318,11 @@
         const hiddenItems = document.querySelectorAll('.news_hidden');
         const link = document.querySelector('.show-more-link');
         
-        if (hiddenItems[0].style.display === 'none' || hiddenItems[0].style.display === '') {
+        // Check if items are currently hidden (either by CSS class or inline style)
+        const isHidden = hiddenItems[0].style.display === 'none' || 
+                       window.getComputedStyle(hiddenItems[0]).display === 'none';
+        
+        if (isHidden) {
           // Show all items
           hiddenItems.forEach(item => {
             item.style.display = '';
@@ -317,7 +333,7 @@
           hiddenItems.forEach(item => {
             item.style.display = 'none';
           });
-          link.textContent = 'Show more';
+          link.textContent = 'Show All';
         }
       }
     </script>
