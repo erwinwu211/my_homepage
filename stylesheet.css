@@ -257,7 +257,7 @@ span.highlight {
 }
 
 .paper_tb video {
-  border-radius: 5px;
+  border-radius: 10px;
 	border: 1px solid black;
   overflow: hidden;
   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.35);
@@ -265,7 +265,7 @@ span.highlight {
 
 .paper_tb img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 	border: 1px solid black;
   overflow: hidden;
   box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.35);
