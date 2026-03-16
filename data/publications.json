@@ -1,0 +1,347 @@
+[
+  {
+    "id": "dyadit",
+    "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
+    "authors": [
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Jyun-Ting Song", "url": "" },
+      { "name": "Siyeol Jung", "url": "" },
+      { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
+      { "name": "Haiyang Liu", "url": "" },
+      { "name": "Xuangeng Chu", "url": "" },
+      { "name": "Ruicong Liu", "url": "" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" }
+    ],
+    "venue": "CVPR",
+    "year": 2026,
+    "image": "images/dyadit.png",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.23165"
+    }
+  },
+  {
+    "id": "sensingvocals",
+    "title": "Sensing Your Vocals: Exploring the Activity of Vocal Cord Muscles for Pitch Assessment Using Electromyography and Ultrasonography",
+    "authors": [
+      { "name": "Kanyu Chen", "url": "" },
+      { "name": "Rebecca Panskus", "url": "" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Daichi Saito", "url": "" },
+      { "name": "Emiko Kamiyama", "url": "" },
+      { "name": "Ruiteng Li", "url": "" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Karola Marky", "url": "" },
+      { "name": "Kato Akira", "url": "" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Kai Kunze", "url": "" }
+    ],
+    "venue": "CHI",
+    "year": 2026,
+    "award": "Honorable Mention",
+    "image": "images/sensingvocals.png",
+    "links": {}
+  },
+  {
+    "id": "solecoach",
+    "title": "SoleCoach: Sole Pressure and IMU-based MLLMs for Skill Coaching",
+    "authors": [
+      { "name": "Toshihiro Hirano", "url": "https://toshihirano.com/" },
+      { "name": "Hitoshi Yoshihara", "url": "" },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "CHI",
+    "year": 2026,
+    "award": "Honorable Mention",
+    "image": "images/solecoach.png",
+    "links": {}
+  },
+  {
+    "id": "musclegolfar",
+    "title": "MuscleGolfAR: Embodied versus Detached Visualization for Motions and Inferred Muscle Activations in Augmented Reality",
+    "authors": [
+      { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Takuya Takahashi", "url": "" },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "IEEE VR (TVCG Journal Track)",
+    "year": 2026,
+    "image": "images/musclegolfar.png",
+    "links": {}
+  },
+  {
+    "id": "p2muscle",
+    "title": "From Pose to Muscle: Multimodal Learning for Piano Hand Muscle Electromyography",
+    "authors": [
+      { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Takanori Oku", "url": "https://www.shibaura-it.ac.jp/faculty/laboratory/00336.html" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Shinichi Furuya", "url": "https://www.neuropiano.net/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "NeurIPS",
+    "year": 2025,
+    "image": "images/p2muscle.png",
+    "links": {
+      "project": "https://github.com/ruofanliu0129/PianoKPMNet",
+      "paper": "https://arxiv.org/abs/2505.01425",
+      "video": "https://youtu.be/b2lCM3kLZPI"
+    }
+  },
+  {
+    "id": "interpet4d",
+    "title": "InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation",
+    "authors": [
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Jyun-Ting Song", "url": "https://jyuntins.github.io/" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Erwin Wu", "url": "", "is_me": true }
+    ],
+    "venue": "ArXiv",
+    "year": 2025,
+    "image": "images/interpet4d.png",
+    "links": {}
+  },
+  {
+    "id": "piamuscle",
+    "title": "PiaMuscle: Improving Piano Skill Acquisition by Cost-effectively Estimating and Visualizing Activities of Miniature Hand Muscles",
+    "authors": [
+      { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Takanori Oku", "url": "https://www.shibaura-it.ac.jp/faculty/laboratory/00336.html" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Shinichi Furuya", "url": "https://www.neuropiano.net/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "CHI",
+    "year": 2025,
+    "image": "images/piamuscle.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3706598.3713465",
+      "video": "https://www.youtube.com/watch?v=9xju5pZiJz4"
+    }
+  },
+  {
+    "id": "colordiff",
+    "title": "ColorizeDiffusion: Improving Reference-Based Sketch Colorization with Latent Diffusion Model",
+    "authors": [
+      { "name": "Dingkun Yan", "url": "" },
+      { "name": "Liang Yuan", "url": "" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Yuma Nishioka", "url": "" },
+      { "name": "Issei Fujishiro", "url": "" },
+      { "name": "Suguru Saito", "url": "" }
+    ],
+    "venue": "WACV",
+    "year": 2025,
+    "image": "images/colordiff.png",
+    "links": {
+      "project": "https://github.com/tellurion-kanata/sketch_colorizer",
+      "paper": "https://arxiv.org/abs/2401.01456"
+    }
+  },
+  {
+    "id": "SolePoser",
+    "title": "Soleposer: Full body pose estimation using a single pair of insole sensor",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Rawal Khirodkar", "url": "https://rawalkhirodkar.github.io/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" }
+    ],
+    "venue": "UIST",
+    "year": 2024,
+    "image": "images/soleposer.png",
+    "links": {
+      "project": "https://github.com/erwinwu211/SolePoser-torch",
+      "paper": "https://dl.acm.org/doi/10.1145/3654777.3676418",
+      "video": "https://www.youtube.com/watch?v=TT-kDLnB5Ww"
+    }
+  },
+  {
+    "id": "arpenski",
+    "title": "ARpenSki: Augmenting Ski Training with Direct and Indirect Postural Visualization",
+    "authors": [
+      { "name": "Takashi Matsumoto", "url": "" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "IEEE VR",
+    "year": 2024,
+    "image": "images/arpenski.png",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/10494108/"
+    }
+  },
+  {
+    "id": "pianosyncar",
+    "title": "PianoSyncAR: enhancing piano learning through visualizing synchronized hand pose discrepancies in augmented reality",
+    "authors": [
+      { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Hayato Nishioka", "url": "https://www.sonycsl.co.jp/en/people/hayato-nishioka/" },
+      { "name": "Shinichi Furuya", "url": "https://www.neuropiano.net/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "IEEE ISMAR",
+    "year": 2023,
+    "image": "images/piasync.png",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/10316487/"
+    }
+  },
+  {
+    "id": "omnisense",
+    "title": "OmniSense: Exploring Novel Input Sensing and Interaction Techniques on Mobile Device with an Omni-Directional Camera",
+    "authors": [
+      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Daehwa Kim", "url": "" },
+      { "name": "Juyoung Lee", "url": "https://juyounglee.net/" },
+      { "name": "Hyung-il Kim", "url": "" },
+      { "name": "Seo Young Oh", "url": "" },
+      { "name": "Luna Takagi", "url": "" },
+      { "name": "Woontack Woo", "url": "" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" }
+    ],
+    "venue": "CHI",
+    "year": 2023,
+    "image": "images/omnisense.jpg",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3544548.3580747",
+      "video": "https://youtu.be/nu7vxkiYT2k"
+    }
+  },
+  {
+    "id": "pianohand",
+    "title": "Marker-removal Networks to Collect Precise 3D Hand Data for RGB-based Estimation and its Application in Piano",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hayato Nishioka", "url": "https://www.sonycsl.co.jp/en/people/hayato-nishioka/" },
+      { "name": "Shinichi Furuya", "url": "https://www.neuropiano.net/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "WACV",
+    "year": 2023,
+    "image": "images/pianohand.png",
+    "links": {
+      "paper": "https://openaccess.thecvf.com/content/WACV2023/papers/Wu_Marker-Removal_Networks_To_Collect_Precise_3D_Hand_Data_for_RGB-Based_WACV_2023_paper.pdf"
+    }
+  },
+  {
+    "id": "spinpong",
+    "title": "SPinPong - Virtual Reality Table Tennis Skill Acquisition using Visual, Haptic and Temporal Cues",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Mitski Piekenbrock", "url": "" },
+      { "name": "Takuto Nakamura", "url": "" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "IEEE VR (TVCG Journal Track)",
+    "year": 2021,
+    "image": "images/spinpong.png",
+    "links": {
+      "project": "https://github.com/koikelab-team/SPinPong",
+      "paper": "https://www.computer.org/csdl/journal/tg/2021/05/09382892/1saZrRoiA3C",
+      "video": "https://www.youtube.com/watch?v=0rM6IArkEms"
+    }
+  },
+  {
+    "id": "backhandpose",
+    "title": "Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-worn Camera via Dorsum Deformation Network",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Ye Yuan", "url": "" },
+      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Kris M. Kitani", "url": "" }
+    ],
+    "venue": "UIST",
+    "year": 2020,
+    "image": "images/bhp.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/abs/10.1145/3379337.3415897",
+      "video": "https://www.youtube.com/watch?v=pb3R4su2Fok"
+    }
+  },
+  {
+    "id": "futurepong",
+    "title": "FuturePong: Real-time Table Tennis Trajectory Forecasting using Pose Prediction Network",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "CHI",
+    "year": 2020,
+    "image": "images/futurepong.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3334480.3382853"
+    }
+  },
+  {
+    "id": "Opisthenar",
+    "title": "Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera",
+    "authors": [
+      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Juyoung Lee", "url": "https://juyounglee.net/" },
+      { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "UIST",
+    "year": 2019,
+    "image": "images/Opisthenar.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3332165.3347867"
+    }
+  },
+  {
+    "id": "howtovizski",
+    "title": "How to VizSki: Visualizing Captured Skier Motion in a VR Ski Training Simulator",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Florian Perteneder", "url": "https://scholar.google.com/citations?user=LgojApwAAAAJ" },
+      { "name": "Takayuki Nozawa", "url": "" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "VRCAI 2019, CVPR Workshop 2019",
+    "award": "Best Paper Award",
+    "year": 2019,
+    "image": "images/howtovizski.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3359997.3365698"
+    }
+  },
+  {
+    "id": "futurepose",
+    "title": "FuturePose \u2013 Mixed Reality Martial Arts Training Using Real-Time 3D Human Pose Forecasting With a RGB Camera",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
+    ],
+    "venue": "WACV",
+    "year": 2019,
+    "image": "images/futurepose.png",
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/8658594/"
+    }
+  }
+]

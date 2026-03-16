@@ -279,6 +279,11 @@ span.highlight {
   color: red;
 }
 
+.paper_award {
+  color: #b8860b;
+  font-weight: bold;
+}
+
 .tb_one {
   width: 100%;
   position: relative;
