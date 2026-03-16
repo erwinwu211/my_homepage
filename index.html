@@ -196,8 +196,22 @@
         </td>
       </tr>
     </table>
-    
+
+    <!-- Image overlay -->
+    <div id="img-overlay" class="img-overlay" onclick="closeOverlay()">
+      <img id="img-overlay-content" src="">
+    </div>
+
     <script>
+      function openOverlay(src) {
+        var overlay = document.getElementById('img-overlay');
+        document.getElementById('img-overlay-content').src = src;
+        overlay.style.display = 'flex';
+      }
+
+      function closeOverlay() {
+        document.getElementById('img-overlay').style.display = 'none';
+      }
       const NEWS_VISIBLE_COUNT = 10;
 
       function toggleNews() {
@@ -268,7 +282,7 @@
           tr.innerHTML =
             '<td class="paper_tb">' +
               '<div class="tb_one"><div class="tb_two">' +
-                '<img src="' + pub.image + '">' +
+                '<img src="' + pub.image + '" class="paper_img" onclick="openOverlay(this.src)">' +
               '</div></div>' +
             '</td>' +
             '<td class="paper_details">' +

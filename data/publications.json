@@ -38,29 +38,6 @@
     }
   },
   {
-    "id": "sensingvocals",
-    "title": "Sensing Your Vocals: Exploring the Activity of Vocal Cord Muscles for Pitch Assessment Using Electromyography and Ultrasonography",
-    "authors": [
-      { "name": "Kanyu Chen", "url": "https://www.linkedin.com/in/kanyu-c-507a56124?originalSubdomain=jp" },
-      { "name": "Rebecca Panskus", "url": "https://informatik.rub.de/mobsec/people/panskus/" },
-      { "name": "Erwin Wu", "url": "", "is_me": true },
-      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
-      { "name": "Daichi Saito", "url": "" },
-      { "name": "Emiko Kamiyama", "url": "" },
-      { "name": "Ruiteng Li", "url": "" },
-      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
-      { "name": "Karola Marky", "url": "" },
-      { "name": "Kato Akira", "url": "" },
-      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
-      { "name": "Kai Kunze", "url": "" }
-    ],
-    "venue": "CHI",
-    "year": 2026,
-    "award": "Honorable Mention",
-    "image": "images/sensingvocals.png",
-    "links": {}
-  },
-  {
     "id": "solecoach",
     "title": "SoleCoach: Sole Pressure and IMU-based MLLMs for Skill Coaching",
     "authors": [
@@ -75,6 +52,29 @@
     "year": 2026,
     "award": "Honorable Mention",
     "image": "images/solecoach.png",
+    "links": {}
+  },
+  {
+    "id": "sensingvocals",
+    "title": "Sensing Your Vocals: Exploring the Activity of Vocal Cord Muscles for Pitch Assessment Using Electromyography and Ultrasonography",
+    "authors": [
+      { "name": "Kanyu Chen", "url": "https://www.linkedin.com/in/kanyu-c-507a56124?originalSubdomain=jp" },
+      { "name": "Rebecca Panskus", "url": "https://informatik.rub.de/mobsec/people/panskus/" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Daichi Saito", "url": "" },
+      { "name": "Emiko Kamiyama", "url": "" },
+      { "name": "Ruiteng Li", "url": "" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Karola Marky", "url": "" },
+      { "name": "Kato Akira", "url": "" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Kai Kunze", "url": "https://kaikunze.de/" }
+    ],
+    "venue": "CHI",
+    "year": 2026,
+    "award": "Honorable Mention",
+    "image": "images/sensingvocals.png",
     "links": {}
   },
   {
