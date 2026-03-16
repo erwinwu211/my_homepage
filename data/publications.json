@@ -94,6 +94,21 @@
     "links": {}
   },
   {
+    "id": "mio",
+    "title": "M.I.O: Towards Interactive Intelligence for Digital Humans",
+    "authors": [
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "et al.", "url": "" }
+    ],
+    "venue": "Technical Report by Shanda AI Research Tokyo",
+    "year": 2025,
+    "image": "images/mio.png",
+    "links": {
+      "project": "https://shandaai.github.io/project_mio_page/",
+      "paper": "https://arxiv.org/abs/2512.13674"
+    }
+  },
+  {
     "id": "p2muscle",
     "title": "From Pose to Muscle: Multimodal Learning for Piano Hand Muscle Electromyography",
     "authors": [
