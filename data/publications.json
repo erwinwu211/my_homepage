@@ -212,12 +212,12 @@
     "authors": [
       { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
-      { "name": "Daehwa Kim", "url": "" },
+      { "name": "Daehwa Kim", "url": "https://daehwakim.com/" },
       { "name": "Juyoung Lee", "url": "https://juyounglee.net/" },
-      { "name": "Hyung-il Kim", "url": "" },
-      { "name": "Seo Young Oh", "url": "" },
+      { "name": "Hyung-il Kim", "url": "https://hyungilkim.github.io/" },
+      { "name": "Seo Young Oh", "url": "https://scholar.google.com/citations?hl=en&user=OCAjQfAAAAAJ" },
       { "name": "Luna Takagi", "url": "" },
-      { "name": "Woontack Woo", "url": "" },
+      { "name": "Woontack Woo", "url": "https://uvrlab.org/professor" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" }
     ],
@@ -251,7 +251,7 @@
     "authors": [
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Mitski Piekenbrock", "url": "" },
-      { "name": "Takuto Nakamura", "url": "" },
+      { "name": "Takuto Nakamura", "url": "https://sites.google.com/view/t-nakamura/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
     ],
     "venue": "IEEE VR (TVCG Journal Track)",
