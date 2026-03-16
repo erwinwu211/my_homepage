@@ -20,12 +20,12 @@
     "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
     "authors": [
       { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
-      { "name": "Jyun-Ting Song", "url": "" },
-      { "name": "Siyeol Jung", "url": "" },
+      { "name": "Jyun-Ting Song", "url": "https://jyuntins.github.io/" },
+      { "name": "Siyeol Jung", "url": "https://siyeoljung.github.io/" },
       { "name": "Ruofan Liu", "url": "https://ruofanliu0129.github.io/Resume/" },
-      { "name": "Haiyang Liu", "url": "" },
-      { "name": "Xuangeng Chu", "url": "" },
-      { "name": "Ruicong Liu", "url": "" },
+      { "name": "Haiyang Liu", "url": "https://h-liu1997.github.io/" },
+      { "name": "Xuangeng Chu", "url": "https://xg-chu.site/" },
+      { "name": "Ruicong Liu", "url": "https://ruicongliu.github.io/" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" }
@@ -41,8 +41,8 @@
     "id": "sensingvocals",
     "title": "Sensing Your Vocals: Exploring the Activity of Vocal Cord Muscles for Pitch Assessment Using Electromyography and Ultrasonography",
     "authors": [
-      { "name": "Kanyu Chen", "url": "" },
-      { "name": "Rebecca Panskus", "url": "" },
+      { "name": "Kanyu Chen", "url": "https://www.linkedin.com/in/kanyu-c-507a56124?originalSubdomain=jp" },
+      { "name": "Rebecca Panskus", "url": "https://informatik.rub.de/mobsec/people/panskus/" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
       { "name": "Daichi Saito", "url": "" },
@@ -138,12 +138,12 @@
     "id": "colordiff",
     "title": "ColorizeDiffusion: Improving Reference-Based Sketch Colorization with Latent Diffusion Model",
     "authors": [
-      { "name": "Dingkun Yan", "url": "" },
-      { "name": "Liang Yuan", "url": "" },
+      { "name": "Dingkun Yan", "url": "https://scholar.google.com/citations?user=dM0hOpIAAAAJ&hl=en" },
+      { "name": "Liang Yuan", "url": "https://fj.ics.keio.ac.jp/en/member2023/liang-yuan" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Yuma Nishioka", "url": "" },
-      { "name": "Issei Fujishiro", "url": "" },
-      { "name": "Suguru Saito", "url": "" }
+      { "name": "Issei Fujishiro", "url": "https://fj.ics.keio.ac.jp/en/" },
+      { "name": "Suguru Saito", "url": "https://www.img.cs.titech.ac.jp/" }
     ],
     "venue": "WACV",
     "year": 2025,
@@ -272,7 +272,7 @@
       { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
       { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
-      { "name": "Kris M. Kitani", "url": "" }
+      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" }
     ],
     "venue": "UIST",
     "year": 2020,
@@ -322,7 +322,7 @@
       { "name": "Takayuki Nozawa", "url": "" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" }
     ],
-    "venue": "VRCAI 2019, CVPR Workshop 2019",
+    "venue": "IEEE VR, CVPR Workshop",
     "award": "Best Paper Award",
     "year": 2019,
     "image": "images/howtovizski.png",
