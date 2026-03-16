@@ -1,5 +1,21 @@
 [
   {
+    "id": "interpet4d",
+    "title": "InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation",
+    "authors": [
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
+      { "name": "Jyun-Ting Song", "url": "https://jyuntins.github.io/" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Erwin Wu", "url": "", "is_me": true }
+    ],
+    "venue": "ArXiv",
+    "year": 2026,
+    "image": "images/interpet4d.png",
+    "links": {}
+  },
+  {
     "id": "dyadit",
     "title": "DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation",
     "authors": [
@@ -97,22 +113,6 @@
       "paper": "https://arxiv.org/abs/2505.01425",
       "video": "https://youtu.be/b2lCM3kLZPI"
     }
-  },
-  {
-    "id": "interpet4d",
-    "title": "InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation",
-    "authors": [
-      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
-      { "name": "Jyun-Ting Song", "url": "https://jyuntins.github.io/" },
-      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
-      { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" },
-      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
-      { "name": "Erwin Wu", "url": "", "is_me": true }
-    ],
-    "venue": "ArXiv",
-    "year": 2025,
-    "image": "images/interpet4d.png",
-    "links": {}
   },
   {
     "id": "piamuscle",
