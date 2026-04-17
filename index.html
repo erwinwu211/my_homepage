@@ -44,27 +44,9 @@
                 <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 25%;" alt="profile photo" src="images/Erwin_WU.jpg">
               </td>
               <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Hi, I'm Erwin!
-                </p>
-                <p>
-		I am an Associate Professor in the Department of Computer Science at <a href="https://www.isct.ac.jp/en">Institute of Science Tokyo (Former TokyoTech)</a>.
-    I also serve as a Advisory Researcher at <a href="https://shandaai.github.io/">Shanda AI Research Tokyo</a>. 
-    Before that, I served as a Senior Researcher at Huawei Research Japan, a Visiting Professor at Carniege Mello University, a Guest Researcher at Keio Media Design, and a Research Fellow at Sony CSL.
-    </p>
-    <p>
-    I obtained my Ph.D. at <a href="https://www.isct.ac.jp/en">Institute of Science Tokyo</a>, advised by <a href="http://vogue.cs.titech.ac.jp/">Prof. Hideki Koike</a>.
-		And I've received my Bachelor in Computer Science (with honor, top 10%) at <a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>.
-                </p>
-                <p>
-                  My research interest lies in the field of Human-Computer Interaction, Machine Learning, and 3D Vision. My primary works include pose prediction for sports training, 3D body/hand pose estimation, and VR/AR visualizations for skill acquisition.
-                </p>
-                <p style="text-align:center">
-                  <a class="wrap" target="_blank" href="mailto:wu.e.aa@m.titech.ac.jp"><i class="fa fa-envelope"></i> Email</a> &nbsp;/&nbsp;
-                  <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=bS_o0bcAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/erwin-wu-9729a5164/">Linkedin</a>
-                </p>
+                <p id="about-title" class="name" style="text-align: center;"></p>
+                <div id="about-bio"></div>
+                <p id="about-links" style="text-align:center"></p>
               </td>
             </tr>
           </tbody></table>
@@ -226,6 +208,26 @@
         }
       }
 
+      function renderAbout(about) {
+        if (about.title) {
+          document.getElementById('about-title').textContent = about.title;
+        }
+        var bio = document.getElementById('about-bio');
+        (about.bio || []).forEach(function(paragraph) {
+          var p = document.createElement('p');
+          p.innerHTML = paragraph;
+          bio.appendChild(p);
+        });
+        var linksEl = document.getElementById('about-links');
+        var parts = (about.links || []).map(function(link) {
+          var attrs = 'href="' + link.url + '"';
+          if (link.target) attrs += ' target="' + link.target + '"';
+          if (link.wrap) attrs += ' class="wrap"';
+          return '<a ' + attrs + '>' + link.label + '</a>';
+        });
+        linksEl.innerHTML = parts.join(' &nbsp;/&nbsp; ');
+      }
+
       function renderNews(newsItems) {
         const tbody = document.getElementById('news-body');
         newsItems.forEach(function(item, i) {
@@ -298,6 +300,10 @@
 
       // Load data and render
       document.addEventListener('DOMContentLoaded', function() {
+        fetch('data/about.json')
+          .then(function(r) { return r.json(); })
+          .then(renderAbout);
+
         fetch('data/news.json')
           .then(function(r) { return r.json(); })
           .then(renderNews);

@@ -1,0 +1,14 @@
+{
+  "title": "Hallo, Hi, こんにちは，你好！ I'm Erwin!",
+  "bio": [
+    "I am an Associate Professor in the Department of Computer Science at <a href=\"https://www.isct.ac.jp/en\">Institute of Science Tokyo</a>. I also serve as a Advisory Researcher at <a href=\"https://shandaai.github.io/\">Shanda AI Research Tokyo</a>. Before that, I was as a Senior Researcher at Huawei Research Japan, a Visiting Professor at Carniege Mello University, a Guest Researcher at Keio Media Design, and a Research Fellow at Sony CSL.",
+    "I obtained my Ph.D. at <a href=\"https://www.isct.ac.jp/en\">Institute of Science Tokyo</a>, advised by <a href=\"http://vogue.cs.titech.ac.jp/\">Prof. Hideki Koike</a>. And I've received my Bachelor in Computer Science (with honor, top 10%) at <a href=\"https://en.sjtu.edu.cn/\">Shanghai Jiao Tong University</a>.",
+    "My research interest lies in the field of Human-Computer Interaction, Machine Learning, and 3D Vision. My primary works include pose prediction for sports training, 3D body/hand pose estimation, and VR/AR visualizations for skill acquisition."
+  ],
+  "links": [
+    { "label": "<i class=\"fa fa-envelope\"></i> Email", "url": "mailto:erwin.w.eb65@m.isct.ac.jp", "target": "_blank", "wrap": true },
+    { "label": "CV", "url": "data/CV.pdf" },
+    { "label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=bS_o0bcAAAAJ" },
+    { "label": "Linkedin", "url": "https://www.linkedin.com/in/erwin-wu-9729a5164/" }
+  ]
+}
