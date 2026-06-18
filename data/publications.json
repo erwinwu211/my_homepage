@@ -19,8 +19,8 @@
     "id": "motionslider",
     "title": "Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion",
     "authors": [
-      { "name": "Chen-Chieh Liao", "url": "https://puckikk1202.github.io/" },
-      { "name": "Yichen Peng", "url": "https://jyuntins.github.io/" },
+      { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
+      { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
       { "name": "Yiyi Cai", "url": "" },
       { "name": "Yûi Ono", "url": "" },
       { "name": "Hiroki Hanaokai", "url": "" },
@@ -30,7 +30,7 @@
     ],
     "venue": "ArXiv",
     "year": 2026,
-    "image": "images/interpet4d.png",
+    "image": "images/motionslider.png",
     "links": {}
   },
   {
