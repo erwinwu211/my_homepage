@@ -1,4 +1,4 @@
-[
+[  
   {
     "id": "interpet4d",
     "title": "InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation",
@@ -9,6 +9,24 @@
       { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Erwin Wu", "url": "", "is_me": true }
+    ],
+    "venue": "ECCV",
+    "year": 2026,
+    "image": "images/interpet4d.png",
+    "links": {}
+  },
+  {
+    "id": "motionslider",
+    "title": "Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion",
+    "authors": [
+      { "name": "Chen-Chieh Liao", "url": "https://puckikk1202.github.io/" },
+      { "name": "Yichen Peng", "url": "https://jyuntins.github.io/" },
+      { "name": "Yiyi Cai", "url": "" },
+      { "name": "Yûi Ono", "url": "" },
+      { "name": "Hiroki Hanaokai", "url": "" },
+      { "name": "Erwin Wu", "url": "", "is_me": true },
+      { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
+      { "name": "Shuichi Kurabayashi", "url": "https://www.linkedin.com/in/shuichi-kurabayashi-b6467123/" }
     ],
     "venue": "ArXiv",
     "year": 2026,
