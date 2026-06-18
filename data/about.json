@@ -1,9 +1,9 @@
 {
   "title": "Hallo, Hi, こんにちは, 你好! I'm Erwin!",
   "bio": [
-    "I am an Associate Professor in the <a href=\"https://interactive-intelligence-lab.github.io/lab-homepage/index.html\">Interactive Intelligence Lab</a> at <a href=\"https://www.isct.ac.jp/en\">Institute of Science Tokyo</a>. I also serve as a Advisory Researcher at <a href=\"https://shandaai.github.io/\">Shanda AI Research Tokyo</a>. Before that, I was a Visiting Professor at <a href=\"https://www.ri.cmu.edu/\">Carnegie Mellon University</a>, a Guest Researcher at <a href=\"https://www.kmd.keio.ac.jp/\">Keio Media Design</a>, a Research Fellow at <a href=\"https://www.sonycsl.co.jp/\">Sony CSL</a> and a Senior Researcher at Huawei Research Japan,",
+    "I am an Associate Professor in the <a href=\"https://interactive-intelligence-lab.github.io/lab-homepage/index.html\">Interactive Intelligence Lab</a> at <a href=\"https://www.isct.ac.jp/en\">Institute of Science Tokyo</a>. Before that, I was an Advisory Researcher at <a href=\"https://jp.shanda.com/\">Shanda AI Research Tokyo</a>, a Visiting Professor at <a href=\"https://www.ri.cmu.edu/\">Carnegie Mellon University</a>, a Guest Researcher at <a href=\"https://www.kmd.keio.ac.jp/\">Keio Media Design</a>, a Research Fellow at <a href=\"https://www.sonycsl.co.jp/\">Sony CSL</a> and a Senior Researcher at Huawei Research Japan.",
     "I obtained my Ph.D. at <a href=\"https://www.isct.ac.jp/en\">Institute of Science Tokyo</a>, advised by <a href=\"http://vogue.cs.titech.ac.jp/\">Prof. Hideki Koike</a>. And I've received my Bachelor in Computer Science (with honor, top 10%) at <a href=\"https://en.sjtu.edu.cn/\">Shanghai Jiao Tong University</a>.",
-    "My research interest lies in the field of Human-Computer Interaction, Machine Learning, and 3D Vision. My primary works include pose prediction for sports training, 3D body/hand pose estimation, and VR/AR visualizations for skill acquisition."
+    "My research interests lie in the field of Human-Computer Interaction, Machine Learning, and 3D Vision. My primary works include pose prediction for sports training, 3D body/hand pose estimation, and VR/AR visualizations for skill acquisition."
   ],
   "links": [
     { "label": "<i class=\"fa fa-envelope\"></i> Email", "url": "mailto:erwin.w.eb65@m.isct.ac.jp", "target": "_blank", "wrap": true },
