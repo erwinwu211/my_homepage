@@ -7,7 +7,6 @@
   ],
   "links": [
     { "label": "<i class=\"fa fa-envelope\"></i> Email", "url": "mailto:erwin.w.eb65@m.isct.ac.jp", "target": "_blank", "wrap": true },
-    { "label": "CV", "url": "data/CV.pdf" },
     { "label": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=bS_o0bcAAAAJ" },
     { "label": "Linkedin", "url": "https://www.linkedin.com/in/erwin-wu-9729a5164/" }
   ]

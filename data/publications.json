@@ -13,7 +13,10 @@
     "venue": "ECCV",
     "year": 2026,
     "image": "images/interpet4d.png",
-    "links": {}
+    "links": {
+      "project": "https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/",
+      "paper": "https://interactive-intelligence-lab.github.io/InterPet4D-Homepage/paper.pdf"
+    }
   },
   {
     "id": "motionslider",
@@ -31,7 +34,10 @@
     "venue": "ECCV",
     "year": 2026,
     "image": "images/motionslider.png",
-    "links": {}
+    "links": {
+      "project": "https://liaochenchieh.com/projects/motion-style-slider/",
+      "paper": "https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf"
+    }
   },
   {
     "id": "dyadit",
@@ -52,6 +58,7 @@
     "year": 2026,
     "image": "images/dyadit.png",
     "links": {
+      "project": "https://puckikk1202.github.io/dyadit_hp/",
       "paper": "https://arxiv.org/abs/2602.23165"
     }
   },
@@ -70,7 +77,9 @@
     "year": 2026,
     "award": "Honorable Mention",
     "image": "images/solecoach.png",
-    "links": {}
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3772318.3791181"
+    }
   },
   {
     "id": "sensingvocals",
@@ -93,7 +102,9 @@
     "year": 2026,
     "award": "Honorable Mention",
     "image": "images/sensingvocals.png",
-    "links": {}
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3772318.3790965"
+    }
   },
   {
     "id": "musclegolfar",
@@ -109,7 +120,9 @@
     "venue": "IEEE VR (TVCG Journal Track)",
     "year": 2026,
     "image": "images/musclegolfar.png",
-    "links": {}
+    "links": {
+      "paper": "https://ieeexplore.ieee.org/document/11474749/"
+    }
   },
   {
     "id": "mio",
@@ -143,8 +156,7 @@
     "image": "images/p2muscle.png",
     "links": {
       "project": "https://github.com/ruofanliu0129/PianoKPMNet",
-      "paper": "https://arxiv.org/abs/2505.01425",
-      "video": "https://youtu.be/b2lCM3kLZPI"
+      "paper": "https://neurips.cc/virtual/2025/poster/116792"
     }
   },
   {
@@ -200,7 +212,6 @@
     "year": 2024,
     "image": "images/soleposer.png",
     "links": {
-      "project": "https://github.com/erwinwu211/SolePoser-torch",
       "paper": "https://dl.acm.org/doi/10.1145/3654777.3676418",
       "video": "https://www.youtube.com/watch?v=TT-kDLnB5Ww"
     }
