@@ -1,4 +1,71 @@
-[  
+[
+  {
+    "id": "pianocc",
+    "title": "PianoCC: A Multimodal Dataset for Piano Coaching from Seat Pressure",
+    "authors": [
+      {"name": "Toshihiro Hirano", "url": "https://toshihirano.com/"},
+      {"name": "Ryo Nakabayashi", "url": ""},
+      {"name": "Momoko Shioki", "url": ""},
+      {"name": "Sachiko Shiotani", "url": ""},
+      {"name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/"},
+      {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
+      {"name": "Shio Miyafuji", "url": ""},
+      {"name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike"},
+      {"name": "Erwin Wu", "url": "", "is_me": true},
+      {"name": "Shinichi Furuya", "url": ""}
+    ],
+    "venue": "WACV",
+    "year": 2027,
+    "image": "images/pianocc.png",
+    "links": {
+      "paper": "assets/papers/pianocc-wacv2027.pdf",
+      "paper_label": "Manuscript"
+    }
+  },
+  {
+    "id": "snowecho",
+    "title": "SnowEcho: End-to-End Blind Skiing Assistance System Using Spatial Audio for Simulated Dynamic Slope",
+    "authors": [
+      {"name": "Yuta Taguchi", "url": ""},
+      {"name": "Toshihiro Hirano", "url": "https://toshihirano.com/"},
+      {"name": "Masaki Kuribayashi", "url": ""},
+      {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
+      {"name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/"},
+      {"name": "Erwin Wu", "url": "", "is_me": true},
+      {"name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike"},
+      {"name": "Shigeo Morishima", "url": ""}
+    ],
+    "venue": "UIST",
+    "year": 2026,
+    "image": "images/snowecho.png",
+    "links": {
+      "paper": "assets/papers/snowecho-uist2026.pdf",
+      "paper_label": "Manuscript"
+    }
+  },
+  {
+    "id": "avatardit",
+    "title": "Avatar-DiT: Parametric Multi-View Human Rendering for Interactive Humans using Multi-modal DiT",
+    "authors": [
+      {"name": "Fangyuan Tu", "url": ""},
+      {"name": "Dingkun Yan", "url": ""},
+      {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
+      {"name": "Shuai Tan", "url": ""},
+      {"name": "You Zhou", "url": ""},
+      {"name": "Bo Zheng", "url": ""},
+      {"name": "Zhengqing Li", "url": ""},
+      {"name": "Haoran Xie", "url": ""},
+      {"name": "Erwin Wu", "url": "", "is_me": true}
+    ],
+    "venue": "Pacific Graphics",
+    "year": 2026,
+    "award": "Best Paper, ECCV 2026 Workshop: Agent in World",
+    "image": "images/avatardit.png",
+    "links": {
+      "paper": "https://diglib.eg.org/handle/10.2312/pg20261008",
+      "code": "https://github.com/fyantu/Avatar-DiT"
+    }
+  },
   {
     "id": "interpet4d",
     "title": "InterPet4D: A Multimodal 4D Human-Pet Interaction Dataset for Pet Motion Generation",

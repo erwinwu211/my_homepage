@@ -97,6 +97,8 @@
 								 </div>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
+                <strong>Best Paper Award</strong>, <a href="#avatardit">Avatar-DiT</a>, ECCV 2026 Workshop on <a href="https://interactive-intelligence-lab.github.io/eccv26-aiw-page/">Agent in World: Living Worlds with Interactive Agents</a>, 2026
+                <br>
                 AIP Network Director Award, 6th JST CREST AIP Challenge Program, 2022
                 <br>
                 Seiichi Tejima Research Award, Tokyo Institute of Technology, 2021
@@ -257,9 +259,12 @@
           parts.push('<a class="wrap" target="_blank" href="' + links.project + '"><i class="fa fa-globe"></i> Project Page</a>');
         }
         if (links.paper) {
-          parts.push('<a class="wrap" target="_blank" href="' + links.paper + '"><i class="fa fa-file-pdf"></i> Paper</a>');
+          parts.push('<a class="wrap" target="_blank" href="' + links.paper + '"><i class="fa fa-file-pdf"></i> ' + (links.paper_label || 'Paper') + '</a>');
         } else {
           parts.push('<span class="wrap"><i class="fa fa-file-pdf"></i> Paper</span>');
+        }
+        if (links.code) {
+          parts.push('<a class="wrap" target="_blank" href="' + links.code + '"><i class="fab fa-github"></i> Code</a>');
         }
         if (links.video) {
           parts.push('<a class="wrap" target="_blank" href="' + links.video + '"><i class="fab fa-youtube"></i> Video</a>');

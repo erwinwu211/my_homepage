@@ -1,4 +1,8 @@
 [
+  {"date": "2026.10", "content": "<a href=\"#pianocc\">PianoCC</a>, our multimodal dataset for piano coaching from seat pressure, has been accepted to WACV 2027!"},
+  {"date": "2026.10", "content": "<a href=\"#snowecho\">SnowEcho</a>, our spatial-audio assistance system for blind skiing in simulated dynamic environments, has been accepted to UIST 2026!"},
+  {"date": "2026.10", "content": "<a href=\"#avatardit\">Avatar-DiT</a>, our framework for parametric multi-view human rendering, has been accepted to Pacific Graphics 2026!"},
+  {"date": "2026.09", "content": "<a href=\"#avatardit\">Avatar-DiT</a> received the <strong>Best Paper Award</strong> at the <a href=\"https://interactive-intelligence-lab.github.io/eccv26-aiw-page/\">ECCV 2026 Workshop on Agent in World: Living Worlds with Interactive Agents</a>!"},
   { "date": "2026.02", "content": "Two papers are accepted to ECCV 2026, see you in Malmö!" },
   { "date": "2026.02", "content": "Two papers are accepted to CVPR 2026, see you in Denver!" },
   { "date": "2026.01", "content": "Two papers are accepted to CHI 2026, see you in Barcelona!" },
