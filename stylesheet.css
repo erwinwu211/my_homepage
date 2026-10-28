@@ -334,7 +334,12 @@ span.highlight {
 
 /* Research paper entry spacing */
 .paper_entry {
+  scroll-margin-top: 90px;
   margin-bottom: 30px;
+}
+
+#about-bio {
+  scroll-margin-top: 90px;
 }
 
 .paper_entry td {
