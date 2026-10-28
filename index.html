@@ -18,7 +18,7 @@
     <meta name="author" content="Erwin Wu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css?v=6314fd4">
     
   </head>
 
@@ -309,7 +309,7 @@
           .then(function(r) { return r.json(); })
           .then(renderAbout);
 
-        fetch('data/news.json')
+        fetch('data/news.json?v=6314fd4')
           .then(function(r) { return r.json(); })
           .then(renderNews);
 
