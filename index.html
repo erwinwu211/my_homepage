@@ -259,7 +259,7 @@
           parts.push('<a class="wrap" target="_blank" href="' + links.project + '"><i class="fa fa-globe"></i> Project Page</a>');
         }
         if (links.paper) {
-          parts.push('<a class="wrap" target="_blank" href="' + links.paper + '"><i class="fa fa-file-pdf"></i> ' + (links.paper_label || 'Paper') + '</a>');
+          parts.push('<a class="wrap" target="_blank" href="' + links.paper + '"><i class="fa fa-file-pdf"></i> Paper</a>');
         } else {
           parts.push('<span class="wrap"><i class="fa fa-file-pdf"></i> Paper</span>');
         }
@@ -313,7 +313,7 @@
           .then(function(r) { return r.json(); })
           .then(renderNews);
 
-        fetch('data/publications.json')
+        fetch('data/publications.json?v=paper-labels-20261029')
           .then(function(r) { return r.json(); })
           .then(renderPublications);
 

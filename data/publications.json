@@ -18,8 +18,7 @@
     "year": 2027,
     "image": "images/pianocc.png",
     "links": {
-      "paper": "assets/papers/pianocc-wacv2027.pdf",
-      "paper_label": "Manuscript"
+      "paper": "assets/papers/pianocc-wacv2027.pdf"
     }
   },
   {
@@ -39,8 +38,7 @@
     "year": 2026,
     "image": "images/snowecho.png",
     "links": {
-      "paper": "assets/papers/snowecho-uist2026.pdf",
-      "paper_label": "Manuscript"
+      "paper": "assets/papers/snowecho-uist2026.pdf"
     }
   },
   {
