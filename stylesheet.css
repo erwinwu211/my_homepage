@@ -293,6 +293,19 @@ span.highlight {
   transform: scale(1.05);
 }
 
+/* Keep the main teaser panels larger by cropping the rightmost panel. */
+#pianocc .paper_img {
+  aspect-ratio: 684 / 295;
+  object-fit: cover;
+  object-position: left center;
+}
+
+#snowecho .paper_img {
+  aspect-ratio: 654 / 273;
+  object-fit: cover;
+  object-position: left center;
+}
+
 .img-overlay {
   display: none;
   position: fixed;
