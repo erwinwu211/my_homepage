@@ -9,10 +9,10 @@
       {"name": "Sachiko Shiotani", "url": ""},
       {"name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/"},
       {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
-      {"name": "Shio Miyafuji", "url": ""},
+      {"name": "Shio Miyafuji", "url": "https://shioshio.space/"},
       {"name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike"},
       {"name": "Erwin Wu", "url": "", "is_me": true},
-      {"name": "Shinichi Furuya", "url": ""}
+      {"name": "Shinichi Furuya", "url": "https://www.neuropiano.net/"}
     ],
     "venue": "WACV",
     "year": 2027,
@@ -27,12 +27,12 @@
     "authors": [
       {"name": "Yuta Taguchi", "url": ""},
       {"name": "Toshihiro Hirano", "url": "https://toshihirano.com/"},
-      {"name": "Masaki Kuribayashi", "url": ""},
+      {"name": "Masaki Kuribayashi", "url": "https://www.masakikuribayashi.com/"},
       {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
       {"name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/"},
       {"name": "Erwin Wu", "url": "", "is_me": true},
       {"name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike"},
-      {"name": "Shigeo Morishima", "url": ""}
+      {"name": "Shigeo Morishima", "url": "https://morishima-lab.jp/"}
     ],
     "venue": "UIST",
     "year": 2026,
@@ -48,11 +48,11 @@
       {"name": "Fangyuan Tu", "url": ""},
       {"name": "Dingkun Yan", "url": ""},
       {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
-      {"name": "Shuai Tan", "url": ""},
+      {"name": "Shuai Tan", "url": "https://tanshuai0219.github.io/index.html"},
       {"name": "You Zhou", "url": ""},
       {"name": "Bo Zheng", "url": ""},
       {"name": "Zhengqing Li", "url": ""},
-      {"name": "Haoran Xie", "url": ""},
+      {"name": "Haoran Xie", "url": "https://www.jaist.ac.jp/~xie/"},
       {"name": "Erwin Wu", "url": "", "is_me": true}
     ],
     "venue": "Pacific Graphics",
@@ -89,12 +89,12 @@
     "authors": [
       { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
       { "name": "Yichen Peng", "url": "https://puckikk1202.github.io/" },
-      { "name": "Yiyi Cai", "url": "" },
+      { "name": "Yiyi Cai", "url": "https://cgenglab.github.io/en/authors/yiyi_cai/" },
       { "name": "Yûi Ono", "url": "" },
       { "name": "Hiroki Hanaokai", "url": "" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
-      { "name": "Shuichi Kurabayashi", "url": "https://www.linkedin.com/in/shuichi-kurabayashi-b6467123/" }
+      { "name": "Shuichi Kurabayashi", "url": "https://web.sfc.keio.ac.jp/~kurabaya/" }
     ],
     "venue": "ECCV",
     "year": 2026,
@@ -158,8 +158,8 @@
       { "name": "Emiko Kamiyama", "url": "" },
       { "name": "Ruiteng Li", "url": "" },
       { "name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/" },
-      { "name": "Karola Marky", "url": "" },
-      { "name": "Kato Akira", "url": "" },
+      { "name": "Karola Marky", "url": "https://informatik.rub.de/marky/" },
+      { "name": "Kato Akira", "url": "https://www.kmd.keio.ac.jp/faculty/akira-kato/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Kai Kunze", "url": "https://kaikunze.de/" }
     ],
@@ -252,7 +252,7 @@
       { "name": "Liang Yuan", "url": "https://fj.ics.keio.ac.jp/en/member2023/liang-yuan" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Yuma Nishioka", "url": "" },
-      { "name": "Issei Fujishiro", "url": "https://fj.ics.keio.ac.jp/en/" },
+      { "name": "Issei Fujishiro", "url": "https://www.keio.ac.jp/en/faculty/k_100011769/" },
       { "name": "Suguru Saito", "url": "https://www.img.cs.titech.ac.jp/" }
     ],
     "venue": "WACV",
@@ -319,14 +319,14 @@
     "id": "omnisense",
     "title": "OmniSense: Exploring Novel Input Sensing and Interaction Techniques on Mobile Device with an Omni-Directional Camera",
     "authors": [
-      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Hui-Shyong Yeo", "url": "https://hci-yeo.github.io/" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Daehwa Kim", "url": "https://daehwakim.com/" },
       { "name": "Juyoung Lee", "url": "https://juyounglee.net/" },
       { "name": "Hyung-il Kim", "url": "https://hyungilkim.github.io/" },
-      { "name": "Seo Young Oh", "url": "https://scholar.google.com/citations?hl=en&user=OCAjQfAAAAAJ" },
+      { "name": "Seo Young Oh", "url": "https://ohseo.github.io/" },
       { "name": "Luna Takagi", "url": "" },
-      { "name": "Woontack Woo", "url": "https://uvrlab.org/professor" },
+      { "name": "Woontack Woo", "url": "https://uvrlab.org/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" }
     ],
@@ -377,8 +377,8 @@
     "title": "Back-Hand-Pose: 3D Hand Pose Estimation for a Wrist-worn Camera via Dorsum Deformation Network",
     "authors": [
       { "name": "Erwin Wu", "url": "", "is_me": true },
-      { "name": "Ye Yuan", "url": "" },
-      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Ye Yuan", "url": "https://ye-yuan.com/" },
+      { "name": "Hui-Shyong Yeo", "url": "https://hci-yeo.github.io/" },
       { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" },
       { "name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike" },
       { "name": "Kris Kitani", "url": "https://kriskitani.github.io/" }
@@ -409,7 +409,7 @@
     "id": "Opisthenar",
     "title": "Opisthenar: Hand Poses and Finger Tapping Recognition by Observing Back of Hand Using Embedded Wrist Camera",
     "authors": [
-      { "name": "Hui-Shyong Yeo", "url": "https://scholar.google.com/citations?user=lnF_WWEAAAAJ&hl=en" },
+      { "name": "Hui-Shyong Yeo", "url": "https://hci-yeo.github.io/" },
       { "name": "Erwin Wu", "url": "", "is_me": true },
       { "name": "Juyoung Lee", "url": "https://juyounglee.net/" },
       { "name": "Aaron Quigley", "url": "https://aaronquigley.org/" },
