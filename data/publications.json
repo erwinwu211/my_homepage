@@ -22,6 +22,23 @@
     }
   },
   {
+    "id": "dynamicblur",
+    "title": "Dynamic Blur Guidance for Look-Ahead Gaze in VR Ski Training",
+    "authors": [
+      {"name": "Eiichi Kihara", "url": ""},
+      {"name": "Chen-Chieh Liao", "url": "https://liaochenchieh.com/"},
+      {"name": "Yichen Peng", "url": "https://puckikk1202.github.io/"},
+      {"name": "Hideki Koike", "url": "https://www.vogue.cs.titech.ac.jp/koike"},
+      {"name": "Erwin Wu", "url": "", "is_me": true}
+    ],
+    "venue": "VRST",
+    "year": 2026,
+    "image": "images/dynamicblur.png",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3822517.3848726"
+    }
+  },
+  {
     "id": "snowecho",
     "title": "SnowEcho: End-to-End Blind Skiing Assistance System Using Spatial Audio for Simulated Dynamic Slope",
     "authors": [
